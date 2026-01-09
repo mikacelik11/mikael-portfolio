@@ -1,4 +1,9 @@
 import { motion } from 'framer-motion';
+import cacheMeImage from '../assets/fantasy.png';
+import smashGolfImage from '../assets/golf.png';
+import nbaImage from '../assets/nbamatch.png';
+import clinicImage from '../assets/hospital.png';
+import pokedexImage from '../assets/pokemon.png';
 
 const Projects = () => {
   const projects = [
@@ -7,8 +12,8 @@ const Projects = () => {
       title: "Cache Me Fantasy",
       description: "A full-stack fantasy basketball web application with real-time player stats, team management, and league functionality. Built with React, FastAPI, and PostgreSQL.",
       tech: ["React", "FastAPI", "PostgreSQL", "Render", "Vercel"],
-      image: "https://via.placeholder.com/600x400/4F46E5/ffffff?text=Cache+Me+Fantasy",
-      github: "https://github.com/yourusername/cache-me-fantasy",
+      image: cacheMeImage,
+      github: "https://github.com/mikacelik11/cache-me-fantasy",
       live: "https://your-app.vercel.app"
     },
     {
@@ -16,8 +21,8 @@ const Projects = () => {
       title: "Smash Golf",
       description: "A golf game project with interactive gameplay mechanics.",
       tech: ["JavaScript", "React"],
-      image: "https://via.placeholder.com/600x400/10B981/ffffff?text=Smash+Golf",
-      github: "https://github.com/yourusername/smash-golf",
+      image: smashGolfImage,
+      github: "https://github.com/mikacelik11/smash-golf",
       live: null
     },
     {
@@ -25,8 +30,8 @@ const Projects = () => {
       title: "NBA Match Predictor",
       description: "Machine learning model that predicts NBA game outcomes with 63% accuracy using historical game data and player statistics.",
       tech: ["Python", "Scikit-learn", "Pandas", "NumPy"],
-      image: "https://via.placeholder.com/600x400/7C3AED/ffffff?text=NBA+Predictor",
-      github: "https://github.com/yourusername/nba-predictor",
+      image: nbaImage,
+      github: "https://github.com/mikacelik11/nba-predictor",
       live: null
     },
     {
@@ -34,8 +39,8 @@ const Projects = () => {
       title: "Clinic Management System",
       description: "A comprehensive clinic management system for scheduling appointments, managing patient records, and tracking medical history.",
       tech: ["Java", "SQL", "JavaFX"],
-      image: "https://via.placeholder.com/600x400/2563EB/ffffff?text=Clinic+System",
-      github: "https://github.com/yourusername/clinic-management",
+      image: clinicImage,
+      github: "https://github.com/mikacelik11/clinic-management",
       live: null
     },
     {
@@ -43,8 +48,8 @@ const Projects = () => {
       title: "PokeDex Application",
       description: "Interactive Pokémon encyclopedia with search functionality, detailed stats, and type effectiveness information.",
       tech: ["JavaScript", "React", "PokeAPI"],
-      image: "https://via.placeholder.com/600x400/DC2626/ffffff?text=PokeDex",
-      github: "https://github.com/yourusername/pokedex",
+      image: pokedexImage,
+      github: "https://github.com/mikacelik11/pokedex",
       live: null
     }
 
@@ -102,15 +107,15 @@ const Projects = () => {
                   ))}
                 </div>
 
-                <div className="flex gap-4">
+                <div className="flex gap-4"
                   
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg transition-colors"
-                  <a>
-                    GitHub
-                  </a>
+                    //className="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg transition-colors"
+                  >
+                    
+                 
                 </div>
               </div>
             </motion.div>

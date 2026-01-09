@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import resumeImage from '../assets/resume.png';
 
 const Resume = () => {
   return (
@@ -38,7 +39,7 @@ const Resume = () => {
           className="max-w-4xl mx-auto bg-white rounded-lg shadow-2xl p-4"
         >
           <img
-            src="https://via.placeholder.com/800x1100/E5E7EB/374151?text=Your+Resume+Screenshot+Here"
+            src={resumeImage}
             alt="Mikael Celik Resume"
             className="w-full h-auto rounded"
           />
