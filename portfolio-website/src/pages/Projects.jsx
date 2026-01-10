@@ -82,15 +82,25 @@ const Projects = () => {
               whileHover={{ y: -10 }}
               className="bg-gray-800 rounded-lg overflow-hidden shadow-2xl hover:shadow-purple-500/50 transition-all duration-300"
             >
-              <div className="relative overflow-hidden h-48">
+              <a 
+                href={project.live || project.github} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block relative overflow-hidden h-48"
+              >
                 <motion.img
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.3 }}
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover cursor-pointer"
                 />
-              </div>
+                <div className="absolute inset-0 bg-black/50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <span className="text-white text-lg font-semibold">
+                    {project.live ? 'View Live Demo' : 'View on GitHub'}
+                  </span>
+                </div>
+              </a>
 
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
