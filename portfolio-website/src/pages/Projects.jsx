@@ -14,7 +14,7 @@ const Projects = () => {
       tech: ["React", "FastAPI", "PostgreSQL", "Render", "Vercel"],
       image: cacheMeImage,
       github: "https://github.com/mikacelik11/cache-me-fantasy",
-      live: "https://your-app.vercel.app"
+      live: "https://cache-me-fantasy.vercel.app/ "
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const Projects = () => {
       description: "A golf game project with interactive gameplay mechanics.",
       tech: ["JavaScript", "React"],
       image: smashGolfImage,
-      github: "https://github.com/mikacelik11/smash-golf",
+      github: "https://github.com/mikacelik11/smashgolf",
       live: null
     },
     {
@@ -31,7 +31,7 @@ const Projects = () => {
       description: "Machine learning model that predicts NBA game outcomes with 63% accuracy using historical game data and player statistics.",
       tech: ["Python", "Scikit-learn", "Pandas", "NumPy"],
       image: nbaImage,
-      github: "https://github.com/mikacelik11/nba-predictor",
+      github: "https://github.com/mikacelik11/NBA-Predictor",
       live: null
     },
     {
@@ -40,7 +40,7 @@ const Projects = () => {
       description: "A comprehensive clinic management system for scheduling appointments, managing patient records, and tracking medical history.",
       tech: ["Java", "SQL", "JavaFX"],
       image: clinicImage,
-      github: "https://github.com/mikacelik11/clinic-management",
+      github: "https://github.com/mikacelik11/clinic-management-system",
       live: null
     },
     {
@@ -49,7 +49,7 @@ const Projects = () => {
       description: "Interactive Pokémon encyclopedia with search functionality, detailed stats, and type effectiveness information.",
       tech: ["JavaScript", "React", "PokeAPI"],
       image: pokedexImage,
-      github: "https://github.com/mikacelik11/pokedex",
+      github: "https://webhome.csc.uvic.ca/~mcelik/pokedex.html",
       live: null
     }
 
