@@ -92,7 +92,7 @@ const Home = () => {
         </h2>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
-          {['React', 'Python', 'JavaScript', 'SQL', 'FastAPI', 'Node.js', 'PostgreSQL', 'Git'].map((skill, index) => (
+          {['React', 'Python', 'JavaScript', 'SQL', 'C++', 'Node.js', 'PostgreSQL', 'Git'].map((skill, index) => (
             <motion.div
               key={skill}
               initial={{ opacity: 0, y: 20 }}

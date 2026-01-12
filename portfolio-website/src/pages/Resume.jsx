@@ -19,8 +19,8 @@ const Resume = () => {
           </p>
           
           <motion.a
-            href="/resume.pdf"
-            download="Mikael_Celik_Resume.pdf"
+            href="/Resume_MC.pdf"
+            download="Resume_MC.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition-all duration-300"
