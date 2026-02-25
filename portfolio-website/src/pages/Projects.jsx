@@ -63,7 +63,7 @@ const Projects = () => {
       image: pokedexImage,
       github: "https://webhome.csc.uvic.ca/~mcelik/pokedex.html",
       live: null
-    },
+    }
 
   ];
 
