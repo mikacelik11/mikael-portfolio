@@ -10,6 +10,17 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "Canadian Newcomer Companion",
+      description: "Full-stack immigration settlement platform helping newcomers manage personalized checklists, access 50+ local resources, and track settlement progress across all 13 Canadian provinces/territories. Features JWT authentication, PostgreSQL database, and province-specific content delivery.",
+      tech: ["React", "Node.js", "Express", "PostgreSQL", "Prisma", "JWT"],
+      image: newcomerImage,
+      github: "https://github.com/mikacelik11/canadian-newcomer-companion",
+      live: "https://canadian-newcomer-companion.vercel.app/"
+    },
+
+
+    {
+      id: 2,
       title: "Cache Me Fantasy",
       description: "A full-stack fantasy basketball web application with real-time player stats, team management, and league functionality. Built with React, FastAPI, and PostgreSQL.",
       tech: ["React", "FastAPI", "PostgreSQL", "Render", "Vercel"],
@@ -18,7 +29,7 @@ const Projects = () => {
       live: "https://cache-me-fantasy.vercel.app/ "
     },
     {
-      id: 2,
+      id: 3,
       title: "Smash Golf",
       description: "A golf game project with interactive gameplay mechanics.",
       tech: ["JavaScript", "React"],
@@ -27,7 +38,7 @@ const Projects = () => {
       live: null
     },
     {
-      id: 3,
+      id: 4,
       title: "NBA Match Predictor",
       description: "Machine learning model that predicts NBA game outcomes with 63% accuracy using historical game data and player statistics.",
       tech: ["Python", "Scikit-learn", "Pandas", "NumPy"],
@@ -36,7 +47,7 @@ const Projects = () => {
       live: null
     },
     {
-      id: 4,
+      id: 5,
       title: "Clinic Management System",
       description: "A comprehensive clinic management system for scheduling appointments, managing patient records, and tracking medical history.",
       tech: ["Java", "SQL", "JavaFX"],
@@ -45,7 +56,7 @@ const Projects = () => {
       live: null
     },
     {
-      id: 5,
+      id: 6,
       title: "PokeDex Application",
       description: "Interactive Pokémon encyclopedia with search functionality, detailed stats, and type effectiveness information.",
       tech: ["JavaScript", "React", "PokeAPI"],
@@ -53,17 +64,6 @@ const Projects = () => {
       github: "https://webhome.csc.uvic.ca/~mcelik/pokedex.html",
       live: null
     },
-
-    {
-      id: 6,
-      title: "Canadian Newcomer Companion",
-      description: "Full-stack immigration settlement platform helping newcomers manage personalized checklists, access 50+ local resources, and track settlement progress across all 13 Canadian provinces/territories. Features JWT authentication, PostgreSQL database, and province-specific content delivery.",
-      tech: ["React", "Node.js", "Express", "PostgreSQL", "Prisma", "JWT"],
-      image: newcomerImage,
-      github: "https://github.com/mikacelik11/canadian-newcomer-companion",
-      live: "https://canadian-newcomer-companion.vercel.app/"
-    }
-
 
   ];
 
