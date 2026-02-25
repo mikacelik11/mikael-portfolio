@@ -4,6 +4,7 @@ import smashGolfImage from '../assets/golf.png';
 import nbaImage from '../assets/nbamatch.png';
 import clinicImage from '../assets/hospital.png';
 import pokedexImage from '../assets/pokemon.png';
+import newcomerImage from '../assets/CanadianNewcomer.png'
 
 const Projects = () => {
   const projects = [
@@ -51,7 +52,18 @@ const Projects = () => {
       image: pokedexImage,
       github: "https://webhome.csc.uvic.ca/~mcelik/pokedex.html",
       live: null
+    },
+
+    {
+      id: 6,
+      title: "Canadian Newcomer Companion",
+      description: "Full-stack immigration settlement platform helping newcomers manage personalized checklists, access 50+ local resources, and track settlement progress across all 13 Canadian provinces/territories. Features JWT authentication, PostgreSQL database, and province-specific content delivery.",
+      tech: ["React", "Node.js", "Express", "PostgreSQL", "Prisma", "JWT"],
+      image: newcomerImage,
+      github: "https://github.com/mikacelik11/canadian-newcomer-companion",
+      live: "https://canadian-newcomer-companion.vercel.app/"
     }
+
 
   ];
 
