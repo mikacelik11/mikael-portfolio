@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+// image imports
 import cacheMeImage from '../assets/fantasy.png';
 import smashGolfImage from '../assets/golf.png';
 import nbaImage from '../assets/nbamatch.png';
