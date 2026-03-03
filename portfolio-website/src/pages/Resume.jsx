@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+// resume
 import resumeImage from '../assets/resume.png';
 
 const Resume = () => {
