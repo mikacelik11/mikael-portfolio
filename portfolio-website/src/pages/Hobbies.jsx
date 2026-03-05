@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-
+// Hobbies
 const Hobbies = () => {
   const hobbies = [
     {
